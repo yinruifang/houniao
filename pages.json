@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "候鸟旅行"
+			}
+		},
+		{
+			"path": "pages/find/index",
+			"style": {
+				"navigationBarTitleText": "候鸟旅行"
+			}
+		},
+		{
+			"path": "pages/dingzhi/index",
+			"style": {
+				"navigationBarTitleText": "候鸟旅行"
+			}
+		},
+		{
+			"path": "pages/mudidi/index",
+			"style": {
+				"navigationBarTitleText": "候鸟旅行"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "候鸟旅行"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#666666",
+		"selectedColor":"#445356",
+		"list":[
+			{"pagePath":"pages/index/index",
+			"text":"首页",
+			"iconPath":"static/img/n-1-a.png",
+			"selectedIconPath":"static/img/n-1.png"
+			},
+			{"pagePath":"pages/find/index",
+			"text":"发现",
+			"iconPath":"static/img/n-2-a.png",
+			"selectedIconPath":"static/img/n-2.png"
+			},
+			{"pagePath":"pages/dingzhi/index",
+			"text":"定制",
+			"iconPath":"static/img/n-3.png",
+			"selectedIconPath":"static/img/n-3.png"
+			},
+			{"pagePath":"pages/mudidi/index",
+			"text":"目的地",
+			"iconPath":"static/img/n-4-a.png",
+			"selectedIconPath":"static/img/n-4.png"
+			},
+			{"pagePath":"pages/mine/index",
+			"text":"我的",
+			"iconPath":"static/img/n-5-a.png",
+			"selectedIconPath":"static/img/n-5.png"
+			}
+		]
+	}
+}
